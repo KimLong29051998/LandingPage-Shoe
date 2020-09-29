@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <section>
+        <!-- <header>
+            <a href="#" class="logo">
+              <img src="/images/logo.png" alt="">
+            </a>
+            <div class="toggle"></div>
+        </header> -->
+        <header> <!-- /header begin -->
+
+            <nav class="main-nav"> <!-- nav begin -->
+    
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="./images/logo.png" alt="">
+                    </a>
+                </div>
+    
+                <div class="hamburger-menu">
+                    <span class="bar"></span>
+                </div>
+    
+                <ul class="nav-list"> <!-- ul begin -->
+    
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">About</a>
+                    </li>
+    
+                </ul><!-- ul finish -->
+    
+            </nav> <!-- nav finish-->
+    
+        </header><!-- /header finish -->
+
+        <div class="content">
+            <div class="imgBX">
+                <img src="./images/shoe.png" alt="">
+            </div>
+            <div class="text">
+                <h2>Nike Air Zoom</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, minima. Labore in, voluptatem fugiat quam dolorum assumenda quaerat eligendi quos suscipit magnam iusto commodi recusandae deleniti quisquam accusantium sapiente ipsa.</p>
+                <div>
+                    <button class="button"><h3>See More</h3></button>
+                </div>
+            </div>
+        </div>
+
+        <ul class="sci">
+            <li><a href="#"><img src="./images/facebook.png" alt=""></a></li>
+            <li><a href="#"><img src="./images/twitter.png" alt=""></a></li>
+            <li><a href="#"><img src="./images/instagram.png" alt=""></a></li> 
+        </ul>
+    </section>
+
+
+
+    <script>
+        const mainNav = document.querySelector('.main-nav');
+        const hamburgerMenu = document.querySelector('.hamburger-menu');
+
+        hamburgerMenu.addEventListener('click', function() {
+	    mainNav.classList.toggle('open');
+        });
+
+    </script>
+
+</body>
+</html>
