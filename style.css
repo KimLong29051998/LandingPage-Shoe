@@ -111,7 +111,7 @@ header{
     position: absolute;
     top: 0;
     right: 0;
-    background-color: linear-gradient(to bottom,#d509a0,#ff606e);
+    background-color: #333;
     transform: translateX(55rem);
     display: flex;
     flex-direction: column;
@@ -128,7 +128,7 @@ header{
 
 .nav-item{
     list-style: none;
-    border-bottom: 2px solid #333;
+    border-bottom: 2px solid #fff;
 }
 
 .nav-link{
@@ -143,7 +143,7 @@ header{
 }
 
 .nav-link:hover{
-    color: #333;
+    color: #d509a0;
 }
 /* 
 header{
